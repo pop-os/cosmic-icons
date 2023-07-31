@@ -1,0 +1,15 @@
+Source: cosmic-icons
+Section: admin
+Priority: optional
+Maintainer: Ashley Wulber <ashley@system76.com>
+Build-Depends:
+  debhelper (>= 11),
+  debhelper-compat (= 11),
+  just,
+Standards-Version: 4.3.0
+Homepage: https://github.com/pop-os/cosmic-icons
+
+Package: cosmic-icons
+Architecture: amd64 arm64
+Depends:
+Description: Cosmic Icons

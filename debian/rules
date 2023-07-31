@@ -1,0 +1,11 @@
+#!/usr/bin/make -f
+
+DESTDIR = debian/cosmic-icons
+CLEAN ?= 1
+VENDOR ?= 1
+
+%:
+	dh $@
+
+override_dh_install:
+	just rootdir=$(DESTDIR) install

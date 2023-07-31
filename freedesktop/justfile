@@ -1,0 +1,5 @@
+icons := env_var('ICONS')
+
+install:
+    find ./scalable -type f -exec install -Dm0644 {} {{icons}}/{} \;
+    
