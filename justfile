@@ -16,7 +16,7 @@ install-extra:
     @just extra/install
 
 # Install everything
-install: (install-freedesktop) (install-extra)
+install: (install-freedesktop)
 
 # Uninstalls everything (requires same arguments as given to install)
 uninstall:
