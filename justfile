@@ -15,8 +15,11 @@ install-freedesktop:
 install-extra:
     @just extra/install
 
+install-index:
+    install -Dm0644 ./index.theme {{icons}}/index.theme
+
 # Install everything
-install: (install-freedesktop)
+install: (install-freedesktop) (install-extra) (install-index)
 
 # Uninstalls everything (requires same arguments as given to install)
 uninstall:
