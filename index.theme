@@ -2,7 +2,7 @@
 Name=Cosmic
 Comment=Cosmic Icons
 Example=folder
-Inherits=hicolor
+Inherits=Pop,hicolor
 
 KDE Specific Stuff
 DisplayDepth=32
