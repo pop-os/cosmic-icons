@@ -4,7 +4,7 @@ Comment=Cosmic Icons
 Example=folder
 Inherits=Pop,hicolor
 
-KDE Specific Stuff
+# KDE Specific Stuff
 DisplayDepth=32
 LinkOverlay=link_overlay
 LockOverlay=lock_overlay
