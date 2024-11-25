@@ -1,19 +1,20 @@
-<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8 56C8 47.1634 15.1634 40 24 40H95.7971C99.1785 40 102.473 41.0713 105.208 43.0602L123 56H232C240.837 56 248 63.1634 248 72V200C248 208.837 240.837 216 232 216H24C15.1634 216 8 208.837 8 200V56Z" fill="url(#paint0_linear_2054_665)"/>
-<rect x="8" y="72" width="240" height="144" rx="16" fill="url(#paint1_linear_2054_665)"/>
-<path d="M96 96C82.84 96 72 106.84 72 120V168C72 181.16 82.84 192 96 192H160C173.16 192 184 181.16 184 168V120C184 106.84 173.16 96 160 96H96ZM96 112H160C164.568 112 168 115.432 168 120V168C168 172.568 164.568 176 160 176H96C91.432 176 88 172.568 88 168V120C88 115.432 91.432 112 96 112Z" fill="white"/>
-<circle cx="107.5" cy="129.5" r="5.5" fill="white"/>
-<path d="M109.333 151L126 176H86L109.333 151Z" fill="white"/>
-<path d="M141.308 129L170 176H106L141.308 129Z" fill="white"/>
-<defs>
-<linearGradient id="paint0_linear_2054_665" x1="128" y1="40" x2="128" y2="216" gradientUnits="userSpaceOnUse">
-<stop stop-color="#636363"/>
-<stop offset="0.2" stop-color="#484848"/>
-<stop offset="1" stop-color="#484848"/>
-</linearGradient>
-<linearGradient id="paint1_linear_2054_665" x1="248" y1="72" x2="40.837" y2="253.483" gradientUnits="userSpaceOnUse">
-<stop stop-color="#979FAD"/>
-<stop offset="1" stop-color="#808080"/>
-</linearGradient>
-</defs>
+<svg width="256" height="256" fill="none" version="1.1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+ <path d="m8 56c0-8.8366 7.1634-16 16-16h71.797c3.3814 0 6.6759 1.0713 9.4109 3.0602l13.584 9.8796c2.735 1.9889 6.029 3.0602 9.411 3.0602h103.8c8.837 0 16 7.1634 16 16v128c0 8.837-7.163 16-16 16h-208c-8.8366 0-16-7.163-16-16z" fill="url(#paint0_linear_2053_149)"/>
+ <path d="m8 88c0-8.8366 7.1634-16 16-16h208c8.837 0 16 7.1634 16 16v112c0 8.837-7.163 16-16 16h-208c-8.8366 0-16-7.163-16-16z" fill="url(#paint1_linear_2054_665)"/>
+ <g fill="#fff">
+  <path d="m96 96c-13.16 0-24 10.84-24 24v48c0 13.16 10.84 24 24 24h64c13.16 0 24-10.84 24-24v-48c0-13.16-10.84-24-24-24h-64zm0 16h64c4.568 0 8 3.432 8 8v48c0 4.568-3.432 8-8 8h-64c-4.568 0-8-3.432-8-8v-48c0-4.568 3.432-8 8-8z"/>
+  <circle cx="107.5" cy="129.5" r="5.5"/>
+  <path d="m109.33 151 16.667 25h-40l23.333-25z"/>
+  <path d="m141.31 129 28.692 47h-64l35.308-47z"/>
+ </g>
+ <defs>
+  <linearGradient id="paint1_linear_2054_665" x1="248" x2="40.837" y1="72" y2="253.48" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#979FAD" offset="0"/>
+   <stop stop-color="#808080" offset="1"/>
+  </linearGradient>
+  <linearGradient id="paint0_linear_2053_149" x1="121" x2="121" y1="72.5" y2="40" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#484848" offset="0"/>
+   <stop stop-color="#636363" offset="1"/>
+  </linearGradient>
+ </defs>
 </svg>
