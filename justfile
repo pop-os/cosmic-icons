@@ -9,6 +9,9 @@ export ICONS := icons
 default:
     @just --list
 
+generate:
+    cargo run --release --manifest-path generator/Cargo.toml -- freedesktop
+
 install-freedesktop:
     @just freedesktop/install
 
