@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="200" height="200">
+  <!-- Black circle -->
+  <circle cx="50" cy="50" r="50" fill="#000000" />
+
+  <!-- White arrow: curved shaft + arrowhead rotated 10° CCW (correct) -->
+  <path d="M 30 70 Q 50 60 70 30 M 73.5 49.7 L 70 30 L 50.3 32.5"
+        stroke="#ffffff"
+        stroke-width="12"
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round" />
+</svg>
